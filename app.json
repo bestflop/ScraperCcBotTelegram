@@ -1,0 +1,31 @@
+{
+  "env": {
+    "CHAT_ID_FORWARD": {
+      "description": "CHAT_ID_FORWARD",
+      "value": "",
+      "required": true
+    },
+     "MODE": {
+      "description": "SK live",
+      "value": "",
+      "required": true
+    },
+    "TOKEN": {
+      "description": "Your bot token, as a string.",
+      "value": "",
+      "required": true
+    },
+    "HEROKU_APP_NAME": {
+      "description": "HEROKU_APP_NAME.",
+      "value": "",
+      "required": true
+   
+    }
+  },
+  "stack": "heroku-22",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
