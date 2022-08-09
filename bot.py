@@ -22,8 +22,8 @@ now it is an obsolete version for my work environment, that's why I post it for 
 -Secret keys: 
 	-TOKEN: 5425696821:AAGjNDpbgqS6MfrONfyYF0ErApScMLSJ3AY
 	- MODE: prod
-	- CHAT_ID_FORWARD: -1001783823529
-	- HEROKU_APP_NAME: (mdzcheckerbot)
+	- CHAT_ID_FORWARD: -1001688355228
+	- HEROKU_APP_NAME: (vmcheckerbot)
 '''
 
 
@@ -32,12 +32,10 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 logger = logging.getLogger(__name__)
 
-client = pymongo.MongoClient(
-	
-	)# MONGO DB LINK 
+client = pymongo.MongoClient('mongodb+srv://userbot:vu612002@cluster0.mh5xf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')# MONGO DB LINK 
 db = client.credit_cards
 
-developers = ['1740075227']
+developers = ['1924942921']
 
 
 addusr = ""
